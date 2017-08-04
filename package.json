@@ -17,12 +17,22 @@
     "url": "https://github.com/adam-pog/ts-react-graph/issues"
   },
   "babel": {
-   "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "homepage": "https://github.com/adam-pog/ts-react-graph#readme",
   "dependencies": {
+    "d3": "^3.5.17",
+    "d3-array": "^0.8.1",
+    "d3-scale": "^0.9.3",
+    "d3-shape": "^0.7.1",
+    "d3-time-format": "^2.0.5",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-easy-chart": "^0.1.13",
+    "react-faux-dom": "^2.7.1"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
